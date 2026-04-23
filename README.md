@@ -1,5 +1,4 @@
 # Semaforo
-¡Claro que sí! Aquí tienes una propuesta de `README.md` estructurada, clara y lista para agregar a tu repositorio. He unificado la funcionalidad de tu script de Pygame con el formato de tus archivos de registro.
 
 ---
 
@@ -52,4 +51,3 @@ A continuación, se detalla una lista de infractores donde cada entrada refleja:
 
 ---
 
-¿Te gustaría que agreguemos alguna sección extra a este documento, como una guía para modificar las constantes físicas (como el límite de velocidad o los tiempos del semáforo)?
