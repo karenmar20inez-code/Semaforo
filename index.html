@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi Proyecto Python</title>
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Semáforo - UNIREM</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
 </head>
 <body>
-    <h1>Resultado de mi script de Python:</h1>
-   <py-script src="./Semáforo/Semáforo/semaforo.py"></py-script>
+    <div id="container">
+        <h1>🚦 Simulación: semaforo_pro.py</h1>
+        <hr>
+        <div id="output"></div>
+        
+        <script type="py" src="./semaforo_pro.py" config='{"packages":[]}'></script>
+    </div>
+
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f9; display: flex; justify-content: center; padding-top: 50px; }
+        #container { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 80%; max-width: 600px; text-align: center; }
+        h1 { color: #333; }
+        #output { margin-top: 20px; padding: 15px; background: #282c34; color: #61dafb; border-radius: 8px; font-family: monospace; text-align: left; min-height: 100px; white-space: pre-wrap; }
+    </style>
 </body>
 </html>
